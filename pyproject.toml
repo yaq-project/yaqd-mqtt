@@ -10,7 +10,7 @@ author-email = "blaise@untzag.com"
 home-page = "https://yaq.fyi"
 description-file = "README.md"
 requires-python = ">=3.7"
-requires = ["yaqd-core>=2020.06.3"]
+requires = ["yaqd-core>=2021.2.1", "paho-mqtt"]
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: Science/Research",
@@ -30,7 +30,7 @@ Issues = "https://gitlab.com/yaq/yaqd-mqtt/issues"
 dev = ["black", "pre-commit"]
 
 [tool.flit.scripts]
-yaqd-my-daemon = "yaqd_mqtt._my_daemon:MyDaemon.main"
+yaqd-mqtt-homie-sensor = "yaqd_mqtt._mqtt_homie_sensor:MQTTHomieSensor.main"
 
 
 [tool.black]

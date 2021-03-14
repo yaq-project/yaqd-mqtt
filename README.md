@@ -7,8 +7,11 @@
 [![ver](https://img.shields.io/badge/calver-YYYY.0M.MICRO-blue)](https://calver.org/)
 [![log](https://img.shields.io/badge/change-log-informational)](https://gitlab.com/yaq/yaqd-mqtt/-/blob/master/CHANGELOG.md)
 
-yaq daemons for interacting with MQTT brokers
+yaq daemons for interacting with MQTT brokers.
+Built on top of [Paho](https://github.com/eclipse/paho.mqtt.python) :heart:.
 
 This package contains the following daemon(s):
 
-- https://yaq.fyi/daemons/my-daemon
+- https://yaq.fyi/daemons/mqtt-homie-sensor
+
+[![homie](https://homieiot.github.io/img/works-with-homie.png)](https://homieiot.github.io/)

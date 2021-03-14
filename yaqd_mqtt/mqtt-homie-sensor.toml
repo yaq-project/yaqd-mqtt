@@ -1,0 +1,34 @@
+protocol = "mqtt-homie-sensor"
+doc = "A daemon to expose homie devices as yaq sensors with one channel per property."
+traits = ["is-sensor", "is-daemon"]
+
+[links]
+source = "https://gitlab.com/yaq/yaqd-mqtt"
+bugtracker = "https://gitlab.com/yaq/yaqd-mqtt/-/issues"
+
+[installation]
+PyPI = "https://pypi.org/project/yaqd-mqtt"
+
+[config]
+
+[config.device_id]
+type = "string"
+doc = "Homie device id."
+
+[config.mqtt_host]
+type = "string"
+doc = "MQTT host, e.g. mqtt.chem.wisc.edu"
+
+[config.mqtt_port]
+type = "int"
+doc = "MQTT port."
+default = 1883
+
+[config.mqtt_keepalive]
+type = "int"
+doc = "MQTT keepalive time in seconds. Must be integer."
+default = 60
+
+[state]
+
+[messages]
