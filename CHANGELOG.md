@@ -11,4 +11,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 - initial release
 
 [Unreleased]: https://gitlab.com/yaq/yaqd-mqtt/-/compare/v2021.3.0...master
-[2021.03.0]: https://gitlab.com/yaq/yaqd-mqtt/-/tags/v2021.3.0
+[2021.3.0]: https://gitlab.com/yaq/yaqd-mqtt/-/tags/v2021.3.0
