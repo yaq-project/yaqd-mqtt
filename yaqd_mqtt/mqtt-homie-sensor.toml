@@ -8,6 +8,7 @@ bugtracker = "https://gitlab.com/yaq/yaqd-mqtt/-/issues"
 
 [installation]
 PyPI = "https://pypi.org/project/yaqd-mqtt"
+conda-forge = "https://anaconda.org/conda-forge/yaqd-mqtt"
 
 [config]
 

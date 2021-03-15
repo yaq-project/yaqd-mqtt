@@ -82,7 +82,8 @@
     },
     "doc": "A daemon to expose homie devices as yaq sensors with one channel per property.",
     "installation": {
-        "PyPI": "https://pypi.org/project/yaqd-mqtt"
+        "PyPI": "https://pypi.org/project/yaqd-mqtt",
+        "conda-forge": "https://anaconda.org/conda-forge/yaqd-mqtt"
     },
     "links": {
         "bugtracker": "https://gitlab.com/yaq/yaqd-mqtt/-/issues",
