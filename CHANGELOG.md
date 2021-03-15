@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Added
+- link to new conda-forge package for yaqd-mqtt-homie-sensor
+
 ## [2021.3.0]
 
 ### Added
